@@ -1,8 +1,8 @@
-# First react project (Todo-list)
+# React project (Todo-list)
 
-## Available Scripts
+## First react project
 
-In the project directory, you can run:
+make todo list
 
 ### `yarn start`
 
