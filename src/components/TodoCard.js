@@ -1,27 +1,28 @@
 import React from "react";
 import { Button, TodoItem, WillDoneList } from "../style/styles";
 
-const TodoCard = props => {
+// props 를 분해해서 받아오기
+const TodoCard = ({ todo, handleComplete, handleDelete }) => {
   return (
     <WillDoneList>
-      <TodoItem>{props.todos.todo}</TodoItem>
-      {props.todos.done ? (
+      <TodoItem>{todo.todo}</TodoItem>
+      {todo.done ? (
         <Button
-          onClick={() => props.handleComplete(props.todos.id)}
+          onClick={() => handleComplete(todo.id)}
           bgColor={"rgba(98, 115, 124)"}
         >
           Revert
         </Button>
       ) : (
         <Button
-          onClick={() => props.handleComplete(props.todos.id)}
+          onClick={() => handleComplete(todo.id)}
           bgColor={"rgba(98, 115, 124)"}
         >
           Done
         </Button>
       )}
       <Button
-        onClick={() => props.handleDelete(props.todos.id)}
+        onClick={() => handleDelete(todo.id)}
         bgColor={"rgba(255, 69, 58)"}
       >
         Delete

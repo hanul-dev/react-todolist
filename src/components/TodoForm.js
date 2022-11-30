@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Form, TodoInput, Button } from "../style/styles";
 
-const TodoForm = props => {
+const TodoForm = ({ onSaveTodos }) => {
   const [enteredTodo, setEnteredTodo] = useState("");
-  const [formError, setformError] = useState("");
 
   const todoChangeHandler = event => {
     setEnteredTodo(event.target.value);
+    console.log("input change");
   };
 
   const submitHandler = event => {
@@ -17,7 +17,7 @@ const TodoForm = props => {
       done: false,
     };
 
-    props.onSaveTodos(todoDatas);
+    onSaveTodos(todoDatas);
     setEnteredTodo("");
   };
 
