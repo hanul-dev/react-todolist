@@ -2,27 +2,18 @@
 
 ## First react project
 
-make todo list
+First react project todo list
 
-### `yarn start`
+## Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Header
+![image](https://user-images.githubusercontent.com/110656247/204861877-5efd6672-280f-42a0-973e-c734640923f6.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### TodoForm
+![image](https://user-images.githubusercontent.com/110656247/204861933-bea02f7e-49eb-474b-b2cf-212dacdf45a0.png)
 
-### `yarn test`
+### Todo
+![image](https://user-images.githubusercontent.com/110656247/204862101-d042afbd-68ff-4edf-bd7e-d9263bdd6e8f.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### TodoCard
+![image](https://user-images.githubusercontent.com/110656247/204862197-e93a72a4-bd93-4317-b3a1-2c421c0e587f.png)
