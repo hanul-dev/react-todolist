@@ -1,17 +1,4 @@
 import styled from "styled-components";
-// import add_button from "./icons/icons8-plus-math-30.png";
-
-//////////////////////
-const Test = () => {
-  return <Btn>yes</Btn>;
-};
-
-export default Test;
-
-const Btn = styled.button`
-  background-colro: red;
-`;
-////////////////////////
 
 // Layout
 export const Layout = styled.div`
