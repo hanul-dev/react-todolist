@@ -4,10 +4,8 @@ import { Button, TodoItem, WillDoneList } from "../style/styles";
 const TodoCard = props => {
   return (
     <WillDoneList>
-      <TodoItem>
-        {props.todos.todo}, {props.todos.id}
-      </TodoItem>
-      {props.todos.done === true ? (
+      <TodoItem>{props.todos.todo}</TodoItem>
+      {props.todos.done ? (
         <Button
           onClick={() => props.handleComplete(props.todos.id)}
           bgColor={"rgba(98, 115, 124)"}
