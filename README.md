@@ -1,4 +1,4 @@
-# React project (Todo-list)
+# React Project (Todo-list)
 
 ## First react project
 
